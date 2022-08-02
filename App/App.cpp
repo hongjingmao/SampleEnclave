@@ -34,6 +34,7 @@
 #include <string.h>
 #include <assert.h>
 
+#include <iostream>
 # include <unistd.h>
 # include <pwd.h>
 # define MAX_PATH FILENAME_MAX
