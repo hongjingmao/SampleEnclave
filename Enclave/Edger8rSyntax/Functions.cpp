@@ -69,7 +69,7 @@ void ecall_addsalt(int *msg){
     return;
 }
 
-int generate_random_number() {
+int generate_random_number(void) {
     ocall_print("Processing random number generation...");
     return 42;
 }
