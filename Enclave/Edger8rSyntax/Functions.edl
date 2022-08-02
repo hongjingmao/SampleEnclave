@@ -57,9 +57,9 @@ enclave {
         
         int ecall_function_private(void);
 
-        public void ecall_addsalt(int *msg);
+        public void ecall_addsalt([in] int *msg);
 
-        int generate_random_number()
+        public int generate_random_number(void);
     
     };
 
