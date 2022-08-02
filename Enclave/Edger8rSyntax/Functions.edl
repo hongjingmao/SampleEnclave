@@ -59,7 +59,7 @@ enclave {
 
         public void ecall_addsalt([in]int *msg);
 
-        int generate_random_number(void)
+        int generate_random_number()
     
     };
 
