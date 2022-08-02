@@ -71,7 +71,7 @@ enclave {
          */
         
         void ocall_function_allow(void) allow(ecall_function_private);
-        void ocall_print(const char* str)
+        void ocall_print([in, string]const char* str);
     
     };
 
