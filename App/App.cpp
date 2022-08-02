@@ -214,7 +214,6 @@ int SGX_CDECL main(int argc, char *argv[])
 
     int msg;
     ocall_addsalt(&msg);
-    std::cout << "Seal round trip success! Receive back " << unsealed << std::endl;
 
     /* Destroy the enclave */
     sgx_destroy_enclave(global_eid);
